@@ -10,7 +10,7 @@ test("GET API Request with - InValid 404 Response ", async ({ request }) => {
  const response = await request.get(`${baseurl}/usres/invalid-data`);
  expect(response.status()).toBe(404);
  });
-test("GET Request - Verify User detils ", async ({ request }) => {
+test("GET Request - Verify User details ", async ({ request }) => {
  const response = await request.get(`${baseurl}/users/2`);
  const responseBody = JSON.parse(await response.text());
  expect(response.status()).toBe(200);
