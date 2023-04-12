@@ -2,5 +2,6 @@
 
 You can generate a running skeleton with sample tests by 
 
+```
 npm init playwright@latest
-´´´
+
