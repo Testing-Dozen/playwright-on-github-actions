@@ -1,0 +1,21 @@
+{
+  "name": "playwright-on-github-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Testing-Dozen/playwright-on-github-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Testing-Dozen/playwright-on-github-actions/issues"
+  },
+  "homepage": "https://github.com/Testing-Dozen/playwright-on-github-actions#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.32.3"
+  }
+}
